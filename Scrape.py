@@ -18,6 +18,21 @@ and they lived at the bottom of a well.</p>
 """
 
 
+# In[4]:
+
+from bs4 import BeautifulSoup
+
+
+# In[5]:
+
+soup = BeautifulSoup(html_doc,'html.parser')
+
+
+# In[6]:
+
+print(soup.prettify())
+
+
 # In[ ]:
 
 
